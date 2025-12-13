@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Deolhonaconsulta" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:statusBarColor">#4169E1</item>
+    </style>
+</resources>

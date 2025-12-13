@@ -1,0 +1,7 @@
+<resources>
+    <!-- Define uma aparência de forma para o FAB quadrado -->
+    <style name="ShapeAppearance.FAB.Square" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+</resources>

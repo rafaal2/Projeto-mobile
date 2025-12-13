@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deseja realmente confirmar seu atendimento?"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/telefoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Informe seu telefone"
+            android:inputType="phone" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/radioTelefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone" />
+
+            <RadioButton
+                android:id="@+id/radioWhatsApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp" />
+
+            <RadioButton
+                android:id="@+id/radioAmbos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambos" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.AvaliacaoFragment">
+
+    <LinearLayout
+        android:id="@+id/result_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Cabeçalho (ex.: logotipos ou texto) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:layout_marginBottom="16dp">
+
+        </LinearLayout>
+
+        <!-- Card original -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="@drawable/card_background"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp"
+                android:text="avaliação" />
+        </LinearLayout>
+
+        <!-- Seção de avaliação: Ótimo, Regular e Péssimo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecione sua avaliação:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radioOtimo"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="Ótimo" />
+
+            <RadioButton
+                android:id="@+id/radioRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="Regular" />
+
+            <RadioButton
+                android:id="@+id/radioPessimo"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="Péssimo" />
+        </RadioGroup>
+
+        <!-- Container para seleção do indicador -->
+        <LinearLayout
+            android:id="@+id/indicatorContainer"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qual dos motivos a seguir lhe incomodou:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupIndicador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioRecepcionista"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="TRATAMENTO DO RECEPCIONISTA" />
+
+                <RadioButton
+                    android:id="@+id/radioMedico"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="TRATAMENTO DO MÉDICO" />
+
+                <RadioButton
+                    android:id="@+id/radioDemora"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="DEMORA PARA SER ATENDIDO" />
+
+                <RadioButton
+                    android:id="@+id/radioOutro"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="OUTRO MOTIVO" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Container para comentário e botão de enviar -->
+        <LinearLayout
+            android:id="@+id/commentContainer"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="deixe um comentario:"/>
+
+            <EditText
+                android:id="@+id/editTextComentario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cornerRadius="12dp"
+                app:backgroundTint="@color/azul_material"
+                android:text="enviar avaliação"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

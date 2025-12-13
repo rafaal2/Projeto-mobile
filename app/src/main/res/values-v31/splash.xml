@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Deolhonaconsulta.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- cor de fundo da splash -->
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.Deolhonaconsulta</item>
+    </style>
+</resources>

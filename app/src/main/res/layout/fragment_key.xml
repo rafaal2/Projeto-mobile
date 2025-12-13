@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/result_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.home.KeyFragment">
+
+    <!-- Cabeçalho (ex.: logotipos ou texto) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginBottom="16dp">
+
+        <!-- Exemplo de ImageView com o logo da prefeitura -->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/logojaboatao"-->
+<!--            android:contentDescription="@string/app_name"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/card_background">
+
+        <TextView
+            android:id="@+id/tvChave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="chave de confirmação:" />
+
+        <TextView
+            android:id="@+id/tvProcedimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="Procedimento:" />
+
+        <TextView
+            android:id="@+id/tvCod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp"
+            android:text="codigo de solicitação:" />
+
+        <TextView
+            android:id="@+id/tvNomeDoPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="Nome do paciente:" />
+
+        <TextView
+            android:id="@+id/tvDiaHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="dia e hora do atendimento:" />
+
+        <TextView
+            android:id="@+id/tvCartaoSUS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="Cartão SUS:" />
+
+        <TextView
+            android:id="@+id/tvUnidadeSolicitante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="unidade solicitante:" />
+
+        <TextView
+            android:id="@+id/tvUnidadeExecutante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="Unidade executante:" />
+
+        <TextView
+            android:id="@+id/tvendereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"
+            android:text="Endereço:" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_imprimir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:backgroundTint="@color/azul_material"
+        app:cornerRadius="12dp"
+        android:padding="12dp"
+        android:text="Salvar autorização"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ver unidade de saúde no mapa"
+        app:backgroundTint="@color/azul_material"
+        app:cornerRadius="12dp"
+        android:textColor="@color/white"
+        android:padding="12dp" />
+
+
+</LinearLayout>

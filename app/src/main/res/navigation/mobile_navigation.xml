@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.home.HomeFragment"
+        android:label="Consulta"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_resultFragment"
+            app:destination="@id/nav_result" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_result"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.home.ResultFragment"
+        android:label="Resultado"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_resultFragment_to_infoFragment"
+            app:destination="@id/nav_info" />
+        <action
+            android:id="@+id/action_resultFragment_to_avaliacaoFragment"
+            app:destination="@id/nav_avaliacao" />
+        <action
+            android:id="@+id/action_resultFragment_to_keyFragment"
+            app:destination="@id/nav_key" />
+        <action
+            android:id="@+id/action_nav_result_to_nav_key"
+            app:destination="@id/nav_key" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.home.InfoFragment"
+        android:label="Detalhes"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_key"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.home.KeyFragment"
+        android:label="Detalhes"
+        tools:layout="@layout/fragment_key" />
+
+    <fragment
+        android:id="@+id/nav_avaliacao"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.home.AvaliacaoFragment"
+        android:label="Avaliacao"
+        tools:layout="@layout/fragment_avaliacao" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.home.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.home.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.recifemecatron.deolhonaconsulta.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+
+</navigation>
