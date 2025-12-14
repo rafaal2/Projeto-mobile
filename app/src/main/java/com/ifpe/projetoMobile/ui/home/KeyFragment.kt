@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta.ui.home
+package com.projetomobile.deolhonaconsulta.ui.home
 
 import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
@@ -15,9 +15,9 @@ import android.widget.Toast
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.recifemecatron.deolhonaconsulta.data.Api.HttpClientFactory
-import com.recifemecatron.deolhonaconsulta.data.repository.ConsultaDetRepository
-import com.recifemecatron.deolhonaconsulta.databinding.FragmentKeyBinding
+import com.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
+import com.projetomobile.deolhonaconsulta.data.repository.ConsultaDetRepository
+import com.projetomobile.deolhonaconsulta.databinding.FragmentKeyBinding
 import kotlinx.coroutines.launch
 import java.io.File
 import java.io.FileOutputStream

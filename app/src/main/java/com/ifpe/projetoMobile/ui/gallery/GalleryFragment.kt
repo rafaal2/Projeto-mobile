@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta.ui.gallery
+package com.projetomobile.deolhonaconsulta.ui.gallery
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.recifemecatron.deolhonaconsulta.LoginActivity
-import com.recifemecatron.deolhonaconsulta.databinding.FragmentGalleryBinding
+import com.projetomobile.deolhonaconsulta.LoginActivity
+import com.projetomobile.deolhonaconsulta.databinding.FragmentGalleryBinding
 
 class GalleryFragment : Fragment() {
 

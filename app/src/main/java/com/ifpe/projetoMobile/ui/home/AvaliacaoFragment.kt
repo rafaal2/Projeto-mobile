@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta.ui.home
+package com.projetomobile.deolhonaconsulta.ui.home
 
 import android.os.Bundle
 import android.util.Log
@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.messaging.FirebaseMessaging
-import com.recifemecatron.deolhonaconsulta.R
-import com.recifemecatron.deolhonaconsulta.data.Api.HttpClientFactory
-import com.recifemecatron.deolhonaconsulta.data.Api.response.AvaliacaoRequest
-import com.recifemecatron.deolhonaconsulta.data.repository.AvaliacaoRepository
+import com.projetomobile.deolhonaconsulta.R
+import com.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
+import com.projetomobile.deolhonaconsulta.data.Api.response.AvaliacaoRequest
+import com.projetomobile.deolhonaconsulta.data.repository.AvaliacaoRepository
 import kotlinx.coroutines.launch
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json

@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta.util
+package com.projetomobile.deolhonaconsulta.util
 
 import android.content.Context
 import android.util.Log

@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta.ui.auth
+package com.projetomobile.deolhonaconsulta.ui.auth
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,11 +9,11 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.recifemecatron.deolhonaconsulta.MainActivity
-import com.recifemecatron.deolhonaconsulta.R
-import com.recifemecatron.deolhonaconsulta.data.Api.HttpClientFactory
-import com.recifemecatron.deolhonaconsulta.data.repository.AuthRepository
-import com.recifemecatron.deolhonaconsulta.databinding.FragmentLoginBinding
+import com.projetomobile.deolhonaconsulta.MainActivity
+import com.projetomobile.deolhonaconsulta.R
+import com.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
+import com.projetomobile.deolhonaconsulta.data.repository.AuthRepository
+import com.projetomobile.deolhonaconsulta.databinding.FragmentLoginBinding
 import kotlinx.coroutines.launch
 
 class LoginFragment : Fragment() {

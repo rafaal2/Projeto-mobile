@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.recifemecatron.deolhonaconsulta"
+    namespace = "com.projetomobile.deolhonaconsulta"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.recifemecatron.deolhonaconsulta"
+        applicationId = "com.projetomobile.deolhonaconsulta"
         minSdk = 31
         targetSdk = 35
         versionCode = 1

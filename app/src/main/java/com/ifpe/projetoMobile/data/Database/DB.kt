@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta.data.Database
+package com.projetomobile.deolhonaconsulta.data.Database
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase

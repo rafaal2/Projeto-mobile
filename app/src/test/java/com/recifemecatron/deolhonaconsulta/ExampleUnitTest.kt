@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta
+package com.projetomobile.deolhonaconsulta
 
 import org.junit.Test
 

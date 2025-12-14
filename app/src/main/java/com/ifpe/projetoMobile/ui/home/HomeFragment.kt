@@ -1,4 +1,4 @@
-package com.recifemecatron.deolhonaconsulta.ui.home
+package com.projetomobile.deolhonaconsulta.ui.home
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -16,11 +16,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.messaging.FirebaseMessaging
-import com.recifemecatron.deolhonaconsulta.R
-import com.recifemecatron.deolhonaconsulta.data.Api.HttpClientFactory
-import com.recifemecatron.deolhonaconsulta.data.Database.ConsultaDao
-import com.recifemecatron.deolhonaconsulta.data.repository.ConsultaRepository
-import com.recifemecatron.deolhonaconsulta.databinding.FragmentHomeBinding
+import com.projetomobile.deolhonaconsulta.R
+import com.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
+import com.projetomobile.deolhonaconsulta.data.Database.ConsultaDao
+import com.projetomobile.deolhonaconsulta.data.repository.ConsultaRepository
+import com.projetomobile.deolhonaconsulta.databinding.FragmentHomeBinding
 import kotlinx.coroutines.launch
 import java.io.IOException
 import java.net.SocketTimeoutException
