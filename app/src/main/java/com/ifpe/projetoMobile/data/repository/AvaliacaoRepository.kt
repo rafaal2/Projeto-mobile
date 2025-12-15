@@ -1,7 +1,7 @@
-package com.ifpe.projetomobile.deolhonaconsulta.deolhonaconsulta.data.repository
+package com.ifpe.projetomobile.deolhonaconsulta.data.repository
 
-import com.ifpe.projetomobile.deolhonaconsulta.deolhonaconsulta.data.Api.response.AvaliacaoRequest
-import com.ifpe.projetomobile.deolhonaconsulta.deolhonaconsulta.data.Api.response.AvaliacaoResponse
+import com.ifpe.projetomobile.deolhonaconsulta.data.Api.response.AvaliacaoRequest
+import com.ifpe.projetomobile.deolhonaconsulta.data.Api.response.AvaliacaoResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.headers
