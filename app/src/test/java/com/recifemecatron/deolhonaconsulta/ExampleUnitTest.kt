@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta
+package com.ifpe.projetomobile.deolhonaconsulta
 
 import org.junit.Test
 

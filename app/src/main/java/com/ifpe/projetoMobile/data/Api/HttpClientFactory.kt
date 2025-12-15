@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta.data.Api
+package com.ifpe.projetomobile.deolhonaconsulta.data.Api
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation

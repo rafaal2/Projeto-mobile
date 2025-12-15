@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta.ui.home
+package com.ifpe.projetomobile.deolhonaconsulta.ui.home
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -15,11 +15,11 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.projetomobile.deolhonaconsulta.R
-import com.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
-import com.projetomobile.deolhonaconsulta.data.Api.response.ConfirmacaoRequest
-import com.projetomobile.deolhonaconsulta.data.repository.ConfirmacaoRepository
-import com.projetomobile.deolhonaconsulta.databinding.FragmentResultBinding
+import com.ifpe.projetomobile.deolhonaconsulta.R
+import com.ifpe.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
+import com.ifpe.projetomobile.deolhonaconsulta.data.Api.response.ConfirmacaoRequest
+import com.ifpe.projetomobile.deolhonaconsulta.data.repository.ConfirmacaoRepository
+import com.ifpe.projetomobile.deolhonaconsulta.databinding.FragmentResultBinding
 import kotlinx.coroutines.launch
 
 class ResultFragment : Fragment() {

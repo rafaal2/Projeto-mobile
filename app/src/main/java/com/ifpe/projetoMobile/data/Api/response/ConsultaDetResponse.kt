@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta.data.Api.response
+package com.ifpe.projetomobile.deolhonaconsulta.data.Api.response
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

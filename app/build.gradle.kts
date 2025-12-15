@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.projetomobile.deolhonaconsulta"
+    namespace = "com.ifpe.projetomobile.deolhonaconsulta"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.projetomobile.deolhonaconsulta"
+        applicationId = "com.ifpe.projetomobile.deolhonaconsulta"
         minSdk = 31
         targetSdk = 35
         versionCode = 1

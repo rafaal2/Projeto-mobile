@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta.ui.home
+package com.ifpe.projetomobile.deolhonaconsulta.ui.home
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -8,9 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
-import com.projetomobile.deolhonaconsulta.data.repository.ConsultaDetRepository
-import com.projetomobile.deolhonaconsulta.databinding.FragmentInfoBinding
+import com.ifpe.projetomobile.deolhonaconsulta.data.Api.HttpClientFactory
+import com.ifpe.projetomobile.deolhonaconsulta.data.repository.ConsultaDetRepository
+import com.ifpe.projetomobile.deolhonaconsulta.databinding.FragmentInfoBinding
 import kotlinx.coroutines.launch
 
 class InfoFragment : Fragment() {

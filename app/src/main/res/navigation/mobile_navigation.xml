@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.projetomobile.deolhonaconsulta.ui.home.HomeFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.home.HomeFragment"
         android:label="Consulta"
         tools:layout="@layout/fragment_home">
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/nav_result"
-        android:name="com.projetomobile.deolhonaconsulta.ui.home.ResultFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.home.ResultFragment"
         android:label="Resultado"
         tools:layout="@layout/fragment_result">
         <action
@@ -36,36 +36,36 @@
 
     <fragment
         android:id="@+id/nav_info"
-        android:name="com.projetomobile.deolhonaconsulta.ui.home.InfoFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.home.InfoFragment"
         android:label="Detalhes"
         tools:layout="@layout/fragment_info" />
 
     <fragment
         android:id="@+id/nav_key"
-        android:name="com.projetomobile.deolhonaconsulta.ui.home.KeyFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.home.KeyFragment"
         android:label="Detalhes"
         tools:layout="@layout/fragment_key" />
 
     <fragment
         android:id="@+id/nav_avaliacao"
-        android:name="com.projetomobile.deolhonaconsulta.ui.home.AvaliacaoFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.home.AvaliacaoFragment"
         android:label="Avaliacao"
         tools:layout="@layout/fragment_avaliacao" />
 
     <fragment
         android:id="@+id/nav_login"
-        android:name="com.projetomobile.deolhonaconsulta.ui.home.LoginFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.home.LoginFragment"
         android:label="Login"
         tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/nav_register"
-        android:name="com.projetomobile.deolhonaconsulta.ui.home.RegisterFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.home.RegisterFragment"
         android:label="Register"
         tools:layout="@layout/fragment_register" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.projetomobile.deolhonaconsulta.ui.gallery.GalleryFragment"
+        android:name="com.ifpe.projetomobile.deolhonaconsulta.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 

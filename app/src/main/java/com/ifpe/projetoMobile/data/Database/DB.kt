@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta.data.Database
+package com.ifpe.projetomobile.deolhonaconsulta.data.Database
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase

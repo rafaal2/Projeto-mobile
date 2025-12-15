@@ -1,5 +1,5 @@
 // ConsultaDao.kt
-package com.projetomobile.deolhonaconsulta.data.Database
+package com.ifpe.projetomobile.deolhonaconsulta.data.Database
 
 import android.content.ContentValues
 import android.content.Context

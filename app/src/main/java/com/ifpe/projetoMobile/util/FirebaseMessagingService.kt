@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta.util
+package com.ifpe.projetomobile.deolhonaconsulta.util
 
 import android.app.NotificationChannel
 import android.app.NotificationManager

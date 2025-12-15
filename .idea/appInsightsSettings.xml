@@ -22,7 +22,7 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.recifemecatron.deolhonaconsulta" />
+                  <option name="appId" value="com.ifpe.projetomobile.deolhonaconsulta.deolhonaconsulta" />
                   <option name="mobileSdkAppId" value="1:943539210492:android:76397c9a481d944aefef79" />
                   <option name="projectId" value="deolhonaconsulta" />
                   <option name="projectNumber" value="943539210492" />

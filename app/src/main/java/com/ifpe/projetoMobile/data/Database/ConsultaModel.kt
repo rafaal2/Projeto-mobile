@@ -1,4 +1,4 @@
-package com.projetomobile.deolhonaconsulta.data.Database
+package com.ifpe.projetomobile.deolhonaconsulta.data.Database
 
 data class Consulta(
     val id: Int? = null,
